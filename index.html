@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .div1 {
+        border: 2px solid;
+        text-align: center;
+        color: rgb(48, 32, 169);
+        background-color: rgb(185, 28, 28, 0.712);
+      }
+      div h1 {
+        display: inline;
+        margin: 5px;
+        overflow-y: scroll;
+      }
+      .nav {
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+      
+      }
+      a {
+        text-decoration: none;
+      }
+      :target {
+        background-color: beige;
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      .diva{
+        border:2px solid;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <h1>Dinesh Reddy</h1>
+      <h2>Front end developer<h2>
+    </div>
+    <div class="nav">
+      <a href="#summary"><h1>Profile Summary</h1></a>
+      <a href="#edu"><h1>Education</h1></a>
+      <a href="#work"><h1>Work experience</h1></a>
+      <a href="#project"><h1>project</h1></a>
+      <a href="#skills"><h1>Technical-Skills</h1></a>
+    </div>
+    <main
+      style="
+         /* border:2px solid; 
+    height:650px;
+    width:600px;  */
+        margin: 40px;
+      "
+    >
+      <section id ="summary" class="diva">
+        <h1 >Profile Summary</h1>
+        <p>
+          As a motivated and eager-to-learn individual, I am actively developing
+          skills in lead management, client engagement, and sales support. With
+          a strong focus on understanding customer needs, I am honing my ability
+          to respond promptly to live chat inquiries, proactively follow up on
+          leads, and collaborate effectively with cross-functional teams. I am
+          gaining hands-on experience with CRM systems and enhancing my
+          communication and organizational abilities to manage multiple tasks
+          efficiently. I am committed to continuously learning about products,
+          services, and industry trends to provide accurate information and
+          contribute to business success
+        </p>
+      </section>
+      <section id="edu" class="diva">
+        <h1 >Education</h1>
+        <p>Bankatlal Badruka College for Information Technology</p>
+        <p>Master of Science (Statistics)</p>
+      </section>
+      <section id="work" class="diva">
+        <h1 >Work experience</h1>
+        <p>City Union Bank</p>
+
+        <p>Senior Associate</p>
+        <p>
+          My role in CUB is Overseeing and managing customer accounts, ensuring
+          accurate transaction processing, and maintaining financial records.
+          Loan Processing and Credit Risk Management: Evaluating loan
+          applications, conducting risk assessments, and deciding on loan
+          approvals
+        </p>
+      </section>
+      <section id="project" class="diva">
+        <h1 >project</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis
+          rerum voluptates, autem doloribus est, quo, optio sit id quam
+          architecto atque corporis impedit sapiente animi ullam aut nemo
+          adipisci!
+        </p>
+      </section>
+
+      <section id="skills" class="diva">
+        <h1 >Technical-Skills</h1>
+        <p>• Web Technologies: Html, CSS, Java Script.</p>
+        <p>• Frameworks: Bootstrap.</p>
+        <p>• Tools: Git, GitHub, VS Code.</p>
+      </section>
+    </main>
+  </body>
+</html>
